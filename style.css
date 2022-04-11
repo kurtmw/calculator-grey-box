@@ -3,6 +3,23 @@ body {
     background-color: #f7f7f7;
 }
 
+#top-nav {
+    width: 100%;
+    float:left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+.left-nav label {
+    float: left;
+}
+
+.right-nav label {
+    float: right;
+}
+
 input[type=submit] {
     background-color: #C9C9C9;
     font: normal 14px Verdana, Arial, sans-serif;
